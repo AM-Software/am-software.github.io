@@ -1,0 +1,80 @@
+ <!-- START: header -->
+  
+  <div class="probootstrap-loader"></div>
+
+  {% assign is = "" %}
+  {% assign ss = "" %}
+  {% assign es = "" %}
+  {% assign ws = "" %}
+  {% assign bs = "" %}
+  {% assign ns = "" %}
+  {% assign cs = "" %}
+
+  {% if page.permalink == "/inicio" %}
+  {% assign is = "active" %}
+  {% endif %}
+
+  {% if page.permalink == "/software" %}
+  {% assign ss = "active" %}
+  {% endif %}
+
+  {% if page.permalink == "/ecommerce" %}
+  {% assign es = "active" %}
+  {% endif %}
+
+  {% if page.permalink == "/web" %}
+  {% assign ws = "active" %}
+  {% endif %}
+
+  {% if page.permalink == "/branding" %}
+  {% assign bs = "active" %}
+  {% endif %}
+
+  {% if page.permalink == "/nosotros" %}
+  {% assign ns = "active" %}
+  {% endif %}
+
+  {% if page.permalink == "/contacto" %}
+  {% assign cs = "active" %}
+  {% endif %}
+
+  <header role="banner" class="probootstrap-header">
+    <div class="container">
+        <a href="/es/inicio" class="probootstrap-logo"><span><img src="img/logo.png" style="height:80px;width:auto;"></span></a>
+        
+        <a href="#" class="probootstrap-burger-menu visible-xs" ><i>Menu</i></a>
+        <div class="mobile-menu-overlay"></div>
+
+        <nav role="navigation" class="probootstrap-nav hidden-xs">
+          <ul class="probootstrap-main-nav">
+            <strong><li class="{{ is }}"><a href="/inicio">Inicio</a></li>
+            <!--<li><a href="/es/ovens">ERP</a></li>-->
+            <li class="{{ ss }}""><a href="/software">Software</a></li>
+            <li class="{{ es }}"><a href="/ecommerce">E-Commerce</a></li>
+            <li class="{{ ws }}"><a href="/web">Web</a></li>
+            <li class="{{ bs }}"><a href="/branding">Branding</a></li>
+            <li class="{{ ns }}"><a href="/nosotros">Nosotros</a></li>
+            <li class="{{ cs }}"><a href="/contacto">Contacto</a></li></strong>
+          </ul>
+          <ul class="probootstrap-right-nav hidden-xs">
+            <li><a target="_blank" href="https://www.facebook.com/amsoftware.es"><i class="icon-facebook2"></i></a></li>
+            <li><a target="_blank" href="https://twitter.com/AMSoftware_es/"><i class="icon-twitter"></i></a></li>
+            <li><a target="_blank" href="https://www.linkedin.com/company/33459907/"><i class="icon-linkedin"></i></a></li>
+            <li><a target="_blank" href="https://www.youtube.com/channel/UCVjCH0EEFGhPbvb1fJhqGow/"><i class="icon-youtube"></i></a></li>
+            <li><a target="_blank" href="https://www.instagram.com/AMSoftware.es/"><i class="icon-instagram2"></i></a></li>
+          </ul>
+          <div class="extra-text visible-xs"> 
+            <a href="#" class="probootstrap-burger-menu"><i>Menu</i></a>
+            <h5>Dirección</h5>
+            <p>Carretera Sur, Managua, NI</p>
+            <h5>Conectar</h5>
+            <ul class="social-buttons">
+              <li><a href="#"><i class="icon-twitter"></i></a></li>
+              <li><a href="#"><i class="icon-facebook2"></i></a></li>
+              <li><a href="#"><i class="icon-instagram2"></i></a></li>
+            </ul>
+          </div>
+        </nav>
+    </div>
+  </header>
+  <!-- END: header -->
