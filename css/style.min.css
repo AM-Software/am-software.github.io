@@ -16,12 +16,12 @@ body {
 }
 
  h1, h2, h3, h4, h5, h6 {
-	text-align:center;
-	font-family:'borisx', sans-serif;
+  text-align:center;
+  font-family:'borisx', sans-serif;
  }
 
 .btn {
-	font-family: 'borisx', sans-serif;
+  font-family: 'borisx', sans-serif;
 }
 
  p {
@@ -45,7 +45,7 @@ body {
   font-size: 16px;
   width: 100%;
   max-width: 1000px;
-  margin: 50px 10px;
+  padding: 50px 10px;
 }
 .snip1404 img {
   position: absolute;
@@ -64,6 +64,7 @@ body {
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
   background-color: #ff6400
   color:#000000;
+  padding: 50px 10px;
 }
 .snip1404 .plan:hover i,
 
@@ -156,21 +157,21 @@ body {
 }
 
 .snip1404 .nothing {
-	background-color:#000000;
-	border-color:#000000;
+  background-color:#000000;
+  border-color:#000000;
 }
 
 
 .snip1404 .startup {
-	border-color: #007FFF;
+  border-color: #007FFF;
 }
 
 .snip1404 .pro {
-	border-color: #00C915;
+  border-color: #00C915;
 }
 
 .snip1404 .gold {
-	border-color: #FFD700;
+  border-color: #FFD700;
 }
 
 .snip1404 .featured {
