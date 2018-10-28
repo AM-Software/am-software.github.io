@@ -22,6 +22,11 @@ body {
 
 .btn {
   font-family: 'borisx', sans-serif;
+  max-width:100%;
+}
+
+button {
+  max-width:100%;
 }
 
  p {
