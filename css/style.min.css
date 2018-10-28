@@ -23,10 +23,14 @@ body {
 .btn {
   font-family: 'borisx', sans-serif;
   max-width:100%;
+  margin-left:15px;
+  margin-right:15px
 }
 
 button {
   max-width:100%;
+  margin-left:15px;
+  margin-right:15px;
 }
 
  p {
