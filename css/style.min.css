@@ -18,7 +18,7 @@ body {
  h1, h2, h3, h4, h5, h6 {
   text-align:center;
   font-family:'borisx', sans-serif;
-font-size:100%;
+font-size:130%;
  }
 
 .btn {
@@ -26,14 +26,14 @@ font-size:100%;
   max-width:100%;
   margin-left:15px;
   margin-right:15px
-font-size:100%;
+  font-size:60%;
 }
 
 button {
   max-width:100%;
   margin-left:15px;
   margin-right:15px;
-font-size:100%;
+  font-size:60%;
 }
 
  p {
