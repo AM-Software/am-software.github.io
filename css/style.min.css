@@ -36,6 +36,16 @@ button {
   font-size:60%;
 }
 
+.btn-subscribe:hover {
+	background-color: #ffffff;
+	color:#000000;
+}
+
+.btn-subscribe {
+	background-color: #ff6400;
+	color:#ffffff;
+}
+
  p {
   text-align: justify;
   text-align-last: center;
