@@ -172,7 +172,7 @@
 		});
 
 		owl2.owlCarousel({
-			items: 3,
+			items: 5,
 			loop: true,
 			margin: 20,
 			nav: false,
