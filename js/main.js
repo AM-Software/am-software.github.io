@@ -144,12 +144,12 @@
 			 	owl2 = $('.owl-carousel-carousel2'),
 			 	owl3 = $('.owl-carousel-carousel3');
 		owl1.owlCarousel({
-			items: 3,
+			items: 5,
 			loop: true,
 			margin: 20,
 			nav: false,
 			dots: false,
-			smartSpeed: 800,
+			smartSpeed: 600,
 			autoHeight: true,
 			navText: [
 		      "<i class='icon-keyboard_arrow_left owl-direction'></i>",
@@ -177,7 +177,7 @@
 			margin: 20,
 			nav: false,
 			dots: false,
-			smartSpeed: 800,
+			smartSpeed: 600,
 			autoHeight: true,
 			navText: [
 		      "<i class='icon-keyboard_arrow_left owl-direction'></i>",
@@ -200,12 +200,12 @@
 		});
 
 		owl3.owlCarousel({
-			items: 3,
+			items: 5,
 			loop: true,
 			margin: 20,
 			nav: false,
 			dots: false,
-			smartSpeed: 800,
+			smartSpeed: 600,
 			autoHeight: true,
 			navText: [
 		      "<i class='icon-keyboard_arrow_left owl-direction'></i>",
