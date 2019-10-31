@@ -149,7 +149,7 @@
 			margin: 20,
 			nav: false,
 			dots: false,
-			smartSpeed: 600,
+			smartSpeed: 300,
 			autoHeight: true,
 			navText: [
 		      "<i class='icon-keyboard_arrow_left owl-direction'></i>",
@@ -177,7 +177,7 @@
 			margin: 20,
 			nav: false,
 			dots: false,
-			smartSpeed: 600,
+			smartSpeed: 300,
 			autoHeight: true,
 			navText: [
 		      "<i class='icon-keyboard_arrow_left owl-direction'></i>",
@@ -205,7 +205,7 @@
 			margin: 20,
 			nav: false,
 			dots: false,
-			smartSpeed: 600,
+			smartSpeed: 300,
 			autoHeight: true,
 			navText: [
 		      "<i class='icon-keyboard_arrow_left owl-direction'></i>",
@@ -264,7 +264,7 @@
 			margin: 20,
 			nav: false,
 			dots: true,
-			smartSpeed: 800,
+			smartSpeed: 400,
 			autoHeight: true,
 			autoplay: true,
 			navText: [
