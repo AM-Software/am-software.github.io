@@ -1,0 +1,104 @@
+ <!-- START: header -->
+  
+  <div class="probootstrap-loader"></div>
+
+  {% assign is = "" %}
+  {% assign ss = "" %}
+  {% assign es = "" %}
+  {% assign ws = "" %}
+  {% assign bs = "" %}
+  {% assign ns = "" %}
+  {% assign cs = "" %}
+
+  {% if page.permalink == "/en" %}
+  {% assign is = "active" %}
+  {% endif %}
+
+  {% if page.permalink == "/en/software" %}
+  {% assign ss = "active" %}
+  {% endif %}
+
+  {% if page.permalink == "/en/ecommerce" %}
+  {% assign es = "active" %}
+  {% endif %}
+
+  {% if page.permalink == "/en/web" %}
+  {% assign ws = "active" %}
+  {% endif %}
+
+  {% if page.permalink == "/en/studio" %}
+  {% assign bs = "active" %}
+  {% endif %}
+
+  {% if page.permalink == "/en/about" %}
+  {% assign ns = "active" %}
+  {% endif %}
+
+  {% if page.permalink == "/en/contact" %}
+  {% assign cs = "active" %}
+  {% endif %}
+
+  <header role="banner" class="probootstrap-header">
+    <div class="container">
+        <a href="/" class="probootstrap-logo"><span><img src="img/logo.png" style="height:80px;width:auto;"></span></a>
+        
+        <a href="#" class="probootstrap-burger-menu visible-xs" ><i>Menu</i></a>
+        <div class="mobile-menu-overlay"></div>
+
+        <nav role="navigation" class="probootstrap-nav hidden-xs">
+          <ul class="probootstrap-main-nav">
+            <strong><li class="{{ is }}"><a href="/en">Home</a></li>
+            <!--<li><a href="/es/ovens">ERP</a></li>-->
+            <li class="{{ ss }}"><a href="/en/software">Software</a></li>
+            <li class="{{ es }}"><a href="/en/ecommerce">E-Commerce</a></li>
+            <li class="{{ ws }}"><a href="/en/web">Web</a></li>
+            <li class="{{ bs }}"><a href="/en/studio">Studio</a></li>
+            <li class="{{ ns }}"><a href="/en/about">About</a></li>
+            <li class="{{ cs }}"><a href="/en/contact">Contacto</a></li></strong>
+          </ul>
+          <ul class="probootstrap-right-nav hidden-xs">
+            <li><a target="_blank" href="https://www.facebook.com/amsoftware.en"><i class="icon-facebook2"></i></a></li>
+            <li><a target="_blank" href="https://twitter.com/AMSoftware_en/"><i class="icon-twitter"></i></a></li>
+            <li><a target="_blank" href="https://www.linkedin.com/company/33459907/"><i class="icon-linkedin"></i></a></li>
+            <li><a target="_blank" href="https://www.youtube.com/channel/UCVjCH0EEFGhPbvb1fJhqGow/"><i class="icon-youtube"></i></a></li>
+            <li><a target="_blank" href="https://www.instagram.com/AMSoftware.en/"><i class="icon-instagram2"></i></a></li>
+            <!--<li><a href="http://amsoftware.solutions">
+              <i class="icon-language" ></i>
+      </a></li>-->
+		  <li><a href="https://www.amsoftware.club/"><i class="icon-language"></i></a></li>
+          </ul>
+
+          <div class="extra-text visible-xs"> 
+            <a href="#" class="probootstrap-burger-menu"><i>Menu</i></a>
+            <h5>Address</h5>
+            <p>Carretera Sur, Managua, NI</p>
+            <h5>Connect</h5>
+            <center>
+                                                        <ul class="social-buttons">
+              <li><a target="_blank" href="https://www.facebook.com/amsoftware.en"><i class="icon-facebook2"></i></a></li>
+            <li><a target="_blank" href="https://twitter.com/AMSoftware_en/"><i class="icon-twitter"></i></a></li>
+            <li><a target="_blank" href="https://www.linkedin.com/company/33459907/"><i class="icon-linkedin"></i></a></li>
+            <li><a target="_blank" href="https://www.youtube.com/channel/UCVjCH0EEFGhPbvb1fJhqGow/"><i class="icon-youtube"></i></a></li>
+            <li><a target="_blank" href="https://www.instagram.com/AMSoftware.en/"><i class="icon-instagram2"></i></a></li>
+                  
+                                                         
+                                                                                                             </ul>
+													     
+
+													     
+													     
+												     
+													     
+													     
+													     
+													     
+																    
+																	    
+																	    
+																	    
+</center>
+          </div>
+        </nav>
+    </div>
+  </header>
+  <!-- END: header -->
