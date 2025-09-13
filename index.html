@@ -1,65 +1,1824 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html lang="en">
-<head>
-	<title>AM Software</title>
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta charset="UTF-8">
-	
-	
-	<!-- Font -->
-	
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700%7CPoppins:400,500" rel="stylesheet">
-	
-	
-	<link href="/home/common-css/ionicons.css" rel="stylesheet">
-	
-	
-	<link rel="stylesheet" href="/home/common-css/jquery.classycountdown.css" />
-		
-	<link href="/home/css/styles.css" rel="stylesheet">
-	
-	<link href="/home/css/responsive.css" rel="stylesheet">
 
-	<!-- Flags -->
-	<link href="./flag-icon-css-master/css/flag-icon.css" rel="stylesheet">
-	
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>AM Software</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link href="assets/img/am/favicon.png" rel="icon">
+  <link href="assets/img/am/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
 </head>
-<body>
-	
-	<div class="main-area center-text" style="background-image:url(/images/cover.png);no-repeat center center fixed; 
--webkit-background-size: cover;
--moz-background-size: cover;
--o-background-size: cover;
-background-size: cover;">
-		
-		<div class="display-table">
-			<div class="display-table-cell">
-				<center>				
-					<img src="/img/logo.png" style="height:300px;width:auto;">
-				</center>
-				<!--<h1 class="title font-white"><b>Comming Soon</b></h1>
-				<p class="desc font-white">Our website is currently undergoing scheduled maintenance.
-					We Should be back shortly. Thank you for your patience.</p>
-				
-				<a class="notify-btn" href="#"><b>NOTIFY US</b></a>
-				-->
-				<ul class="social-btn font-white">
-					<li><span class="flag-icon flag-icon-us"></span><a href="/en/">English</a></li>
-					<li><span class="flag-icon flag-icon-es"></span><a href="/es/">Español</a></li>
-					<!--
-					<li><span class="flag-icon flag-icon-de"></span><a href="/">Deutsche</a></li>
-					<li><span class="flag-icon flag-icon-fr"></span><a href="/">Française</a></li>
-					<li><span class="flag-icon flag-icon-pt"></span><a href="/">Português</a></li>
-					<li><span class="flag-icon flag-icon-it"></span><a href="/">Italiano</a></li>
-					<li><span class="flag-icon flag-icon-nl"></span><a href="/">Nederlandse</a></li>
-					<li><span class="flag-icon flag-icon-ee"></span><a href="/">Eesti</a></li>
-					-->
-				</ul><!-- social-btn -->
-				
-			</div><!-- display-table -->
-		</div><!-- display-table-cell -->
-	</div><!-- main-area -->
-	
+
+<body class="index-page">
+
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container position-relative d-flex align-items-center justify-content-between">
+
+      <a href="#hero" class="logo d-flex align-items-center me-auto me-xl-0">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <img src="assets/img/logo.png" style="height:69px;width:auto;" alt="">
+        <!-- <h1 class="sitename">AM Software</h1> -->
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="#hero" class="active">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#results">Results</a></li>
+          <li><a href="#industries">Industries</a></li>
+          <li><a href="#demos">Demos</a></li>
+          <li><a href="#reviews">Reviews</a></li>
+          <li><a href="#stats">Stats</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <!--<li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="#">Dropdown 1</a></li>
+              <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                <ul>
+                  <li><a href="#">Deep Dropdown 1</a></li>
+                  <li><a href="#">Deep Dropdown 2</a></li>
+                  <li><a href="#">Deep Dropdown 3</a></li>
+                  <li><a href="#">Deep Dropdown 4</a></li>
+                  <li><a href="#">Deep Dropdown 5</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Dropdown 2</a></li>
+              <li><a href="#">Dropdown 3</a></li>
+              <li><a href="#">Dropdown 4</a></li>
+            </ul>
+          </li>-->
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+      <a class="btn-getstarted" href="#about">Get Started</a>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section">
+      <div class="container">
+        <div class="hero-wrapper">
+          </br></br></br>
+          <img src="assets/img/logo.png" style="height:250px;width:auto;" class="center" alt="">
+          </br></br></br>
+          <div class="hero-main-content text-center">
+            <h1 class="hero-title" data-aos="zoom-in" data-aos-delay="200">
+              Your Fastest ROI Path To<br>
+              <span class="typed" data-typed-items="Automations,Dashboards,MVPs,Integrations,Launch,Clarity,Growth,Proven Results"></span>
+            </h1>
+
+            <p class="hero-description" data-aos="fade-up" data-aos-delay="300">
+              We deliver software in days, not months — fixed prices, clear timelines, real results across industries.
+            </p>
+
+            <div class="hero-actions" data-aos="fade-up" data-aos-delay="400">
+              <a href="#services" class="action-btn primary">
+                <span>Get Started Today</span>
+                <i class="bi bi-arrow-right"></i>
+              </a>
+              <a href="https://youtu.be/yEQV-roXvg4" class="action-btn secondary glightbox">
+                <i class="bi bi-play-circle"></i>
+                <span>Watch A Demo</span>
+              </a>
+            </div>
+
+            <div class="hero-image-showcase" data-aos="fade-up" data-aos-delay="500">
+              <div class="image-wrapper">
+                <img src="assets/img/am/mls-1.png" class="img-fluid" alt="Strategic Overview">
+                <div class="floating-card card-1" data-aos="fade-right" data-aos-delay="600">
+                  <div class="card-content">
+                    <div class="card-icon">
+                      <i class="bi bi-graph-up-arrow"></i>
+                    </div>
+                    <div class="card-info">
+                      <h4>$<span data-purecounter-start="0" data-purecounter-end="250" class="purecounter"></span>K+</h4>
+                      <p>Saved ROI</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="floating-card card-2" data-aos="fade-left" data-aos-delay="700">
+                  <div class="card-content">
+                    <div class="card-icon">
+                      <i class="bi bi-people"></i>
+                    </div>
+                    <div class="card-info">
+                      <h4><span data-purecounter-start="0" data-purecounter-end="35" class="purecounter"></span>+</h4>
+                      <p>Satisfied Clients</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </section><!-- /Hero Section -->
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row align-items-center justify-content-between g-lg-5">
+          <div class="col-lg-6" data-aos="fade-right" data-aos-delay="200">
+            <div class="image-wrapper">
+              <img src="assets/img/am/about.png" class="img-fluid rounded" alt="About Us Image">
+            </div>
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-left" data-aos-delay="300">
+            <div class="content">
+              <h2 class="mb-4">About Us</h2>
+              <h5 class="mb-4">Building fast, reliable software solutions for over a decade.</h5>
+
+              <p class="justify">AM Software was founded with a simple mission: deliver working software fast, without the delays and costs of traditional development. For over 10 years, we’ve built custom solutions across industries where speed and reliability matter most — government, real estate, enterprise, and e-commerce. From developing and supporting U.S. government systems in mission-critical workflows and MLS dashboards handling millions of real estate records to streamlining enterprise operations with custom automations and large-scale Amazon scrapers, we’ve proven that lean builds can still deliver enterprise-level results. Today, we bring that same straight-line approach to every project: clear packages, fixed prices, and working solutions in days, not months.</p>
+
+              <div class="features-list mt-5" data-aos="fade-up" data-aos-delay="400">
+                <div class="row g-4">
+                  <div class="col-md-6">
+                    <div class="feature-item">
+                      <i class="bi bi-lightning-charge"></i>
+                      <h5>Speed</h5>
+                      <p>Delivery in days, not months.</p>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="feature-item">
+                      <i class="bi bi-shield-check"></i>
+                      <h5>Certainty</h5>
+                      <p>Fixed prices, clear timelines, no surprises.</p>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="feature-item">
+                      <i class="bi bi-award"></i>
+                      <h5>Experience</h5>
+                      <p>10+ years across government, real estate, enterprise, and e-commerce.</p>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="feature-item">
+                      <i class="bi bi-graph-up-arrow"></i>
+                      <h5>Results</h5>
+                      <p>From saved hours to startup MVPs, every sprint pays for itself.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="mt-5" data-aos="fade-up" data-aos-delay="600">
+                <a href="#pricing" class="btn btn-primary me-3">Discover Our Process</a>
+                <a href="https://calendly.com/amsoftware-co/30min" target="_blank" class="btn btn-outline-primary">Book A Free Call</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /About Section -->
+
+
+    <!-- Services Section -->
+    <section id="services" class="services section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Services</h2>
+        <p>We build simple, powerful solutions that remove friction.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row align-items-center">
+          <div class="col-lg-6">
+            <div class="intro-content" data-aos="fade-right" data-aos-delay="100">
+              <div class="section-badge mb-3" data-aos="zoom-in" data-aos-delay="50">
+                <i class="bi bi-star-fill"></i>
+                <span>WHAT WE DO</span>
+              </div>
+              <h2 class="section-heading mb-4">Transforming Ideas Into Tangible Results</h2>
+              <p class="section-description mb-4 justify">We deliver fast, reliable solutions that remove friction and unlock growth. Every project is built with clear timelines, fixed prices, and proven technical expertise — so you can move from idea to working software in days, not months.</p>
+              <a href="#results" class="cta-button" data-aos="fade-right" data-aos-delay="200">
+                Explore Our Work
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="hero-visual" data-aos="fade-left" data-aos-delay="150">
+              <img src="assets/img/am/car-1.png" alt="Services" class="img-fluid">
+            </div>
+          </div>
+        </div>
+
+        <div class="services-grid mt-5">
+          <div class="row g-4">
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+              <div class="service-card">
+                <div class="card-number">
+                  <span><i class="bi bi-diagram-3"></i></span>
+                </div>
+                <div class="card-content">
+                  <h5 class="service-title">
+                    <a href="#">Automations & Integrations</a>
+                  </h5>
+                  <p class="service-description">Connect CRMs, ERPs, WhatsApp, payments, emails, and APIs. Eliminate manual work with seamless, automated workflows.</p>
+                </div>
+              </div>
+            </div><!-- End Service Card -->
+
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+              <div class="service-card">
+                <div class="card-number">
+                  <span><i class="bi bi-speedometer2"></i></span>
+                </div>
+                <div class="card-content">
+                  <h5 class="service-title">
+                    <a href="#">Dashboards & Reporting</a>
+                  </h5>
+                  <p class="service-description">Turn messy spreadsheets into real-time dashboards. Gain instant clarity with clean, visual reporting.</p>
+                </div>
+              </div>
+            </div><!-- End Service Card -->
+
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+              <div class="service-card">
+                <div class="card-number">
+                  <span><i class="bi bi-rocket-takeoff"></i></span>
+                </div>
+                <div class="card-content">
+                  <h5 class="service-title">
+                    <a href="#">MVP Builds</a>
+                  </h5>
+                  <p class="service-description">Launch lean prototypes in 2 weeks or less. Test your idea with real users or pitch investors without burning months or $10k+.</p>
+                </div>
+              </div>
+            </div><!-- End Service Card -->
+
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+              <div class="service-card">
+                <div class="card-number">
+                  <span><i class="bi bi-database"></i></span>
+                </div>
+                <div class="card-content">
+                  <h5 class="service-title">
+                    <a href="#">Data Scraping & Pipelines</a>
+                  </h5>
+                  <p class="service-description">From MLS feeds to Amazon listings, we handle millions of records. Reliable pipelines that keep your data flowing.</p>
+                </div>
+              </div>
+            </div><!-- End Service Card -->
+
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+              <div class="service-card">
+                <div class="card-number">
+                  <span><i class="bi bi-window-stack"></i></span>
+                </div>
+                <div class="card-content">
+                  <h5 class="service-title">
+                    <a href="#">Custom Web Apps</a>
+                  </h5>
+                  <p class="service-description">Tailored tools designed for your workflow. Fast, scalable builds that fit your business like a glove.</p>
+                </div>
+              </div>
+            </div><!-- End Service Card -->
+
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+              <div class="service-card">
+                <div class="card-number">
+                 <span><i class="bi bi-hourglass-split"></i></span>
+                </div>
+                <div class="card-content">
+                  <h5 class="service-title">
+                    <a href="#">Hour Packs (Flexible Dev)</a>
+                  </h5>
+                  <p class="service-description">Buy blocks of 10h, 25h, or 40h. Use them for any project, big or small, with full transparency.</p>
+                </div>
+              </div>
+            </div><!-- End Service Card -->
+
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Services Section -->
+
+    <!-- Features Section -->
+    <section id="results" class="features section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Results</h2>
+        <p>Every project pays for itself — in time saved, costs reduced, and clarity gained.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row align-items-center mb-5">
+          <div class="col-lg-6" data-aos="fade-right" data-aos-delay="150">
+            <div class="intro-content">
+              <h2>Turning Tangible Results Into ROI That Lasts</h2>
+              <p class="justify">From time saved to faster launches, every project delivers measurable ROI. On average, clients save 5–10 hours per week, launch MVPs in 2 weeks or less, and cut costs by thousands compared to traditional development.</p>
+              <div class="feature-stats">
+                <div class="stat-item">
+                  <span class="stat-number">10+</span>
+                  <span class="stat-label">Years Across Industries</span>
+                </div>
+                <div class="stat-item">
+                  <span class="stat-number">7-14</span>
+                  <span class="stat-label">Days Delivery</span>
+                </div>
+                <div class="stat-item">
+                  <span class="stat-number">$1,000+</span>
+                  <span class="stat-label">Per Month Average ROI Saved</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6" data-aos="fade-left" data-aos-delay="200">
+            <div class="intro-image">
+              <img src="assets/img/am/asin-1.png" alt="Features" class="img-fluid">
+            </div>
+          </div>
+        </div>
+
+        <div class="features-grid">
+          <div class="feature-item" data-aos="flip-up" data-aos-delay="250">
+            <div class="feature-number">01</div>
+            <div class="feature-content">
+              <div class="feature-icon">
+                <i class="bi bi-clock-history"></i>
+              </div>
+              <h4>Time Saved</h4>
+              <p>Eliminate 5–10 hours of repetitive work every week with automation and integrations.</p>
+              <div class="feature-tags">
+                <!--<span class="tag">Speed</span>
+                <span class="tag">Optimization</span>-->
+              </div>
+            </div>
+          </div>
+
+          <div class="feature-item" data-aos="flip-up" data-aos-delay="300">
+            <div class="feature-number">02</div>
+            <div class="feature-content">
+              <div class="feature-icon">
+                <i class="bi bi-cash-stack"></i>
+              </div>
+              <h4>Cost Efficiency</h4>
+              <p>Launch lean MVPs for $1,500 instead of paying $10k+ and waiting months with traditional agencies.</p>
+              <div class="feature-tags">
+                <!--<span class="tag">Secure</span>
+                <span class="tag">Protected</span>-->
+              </div>
+            </div>
+          </div>
+
+          <div class="feature-item" data-aos="flip-up" data-aos-delay="350">
+            <div class="feature-number">03</div>
+            <div class="feature-content">
+              <div class="feature-icon">
+                <i class="bi bi-lightning-charge-fill"></i>
+              </div>
+              <h4>Speed to Market</h4>
+              <p>Get working software in 7–14 days — move fast, test faster, and stay ahead of competitors.</p>
+              <div class="feature-tags">
+                <!--<span class="tag">Teamwork</span>
+                <span class="tag">Sync</span>-->
+              </div>
+            </div>
+          </div>
+
+          <div class="feature-item" data-aos="flip-up" data-aos-delay="400">
+            <div class="feature-number">04</div>
+            <div class="feature-content">
+              <div class="feature-icon">
+                <i class="bi bi-bar-chart-line"></i>
+              </div>
+              <h4>Data Clarity</h4>
+              <p>Replace messy spreadsheets with real-time dashboards and clean reporting everyone can trust.</p>
+              <div class="feature-tags">
+                <!--<span class="tag">Data</span>
+                <span class="tag">Insights</span>-->
+              </div>
+            </div>
+          </div>
+
+          <div class="feature-item" data-aos="flip-up" data-aos-delay="450">
+            <div class="feature-number">05</div>
+            <div class="feature-content">
+              <div class="feature-icon">
+                <i class="bi bi-layers"></i>
+              </div>
+              <h4>Scalable Solutions</h4>
+              <p>From startup prototypes to enterprise pipelines, our builds grow with your business.</p>
+              <div class="feature-tags">
+                <!--span class="tag">AI</span>
+                <span class="tag">Workflow</span>-->
+              </div>
+            </div>
+          </div>
+
+          <div class="feature-item" data-aos="flip-up" data-aos-delay="500">
+            <div class="feature-number">06</div>
+            <div class="feature-content">
+              <div class="feature-icon">
+                <i class="bi bi-globe"></i>
+              </div>
+              <h4>Proven Across Industries</h4>
+              <p>Government, real estate, e-commerce, enterprise — results delivered where speed and reliability matter most.</p>
+              <div class="feature-tags">
+                <!--<span class="tag">Cloud</span>
+                <span class="tag">Scalable</span>-->
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Features Section -->
+
+    <!-- Features Tabs Section -->
+    <section id="industries" class="features-tabs section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Industries</h2>
+        <p>Proven across industries where speed and reliability matter most.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="tabs-wrapper">
+          <ul class="nav nav-tabs" data-aos="fade-up" data-aos-delay="100">
+
+            <li class="nav-item">
+              <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#features-tabs-tab-1">
+                <div class="tab-icon">
+                  <i class="bi bi-bank"></i>
+                </div>
+                <div class="tab-content">
+                  <h5>Government</h5>
+                  <span>Mission-critical workflows and secure data systems.</span>
+                </div>
+              </a>
+            </li><!-- End tab nav item -->
+
+            <li class="nav-item">
+              <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tabs-tab-2">
+                <div class="tab-icon">
+                  <i class="bi bi-house-door"></i>
+                </div>
+                <div class="tab-content">
+                  <h5>Real Estate</h5>
+                  <span>MLS dashboards handling millions of property records.</span>
+                </div>
+              </a>
+            </li><!-- End tab nav item -->
+
+            <li class="nav-item">
+              <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tabs-tab-3">
+                <div class="tab-icon">
+                  <i class="bi bi-building"></i>
+                </div>
+                <div class="tab-content">
+                  <h5>Enterprise</h5>
+                  <span>Automations that streamline complex operations.</span>
+                </div>
+              </a>
+            </li><!-- End tab nav item -->
+
+            <li class="nav-item">
+              <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tabs-tab-4">
+                <div class="tab-icon">
+                  <i class="bi bi-cart-check"></i>
+                </div>
+                <div class="tab-content">
+                  <h5>E-Commerce</h5>
+                  <span>Large-scale Amazon scrapers, inventory, and order pipelines.</span>
+                </div>
+              </a>
+            </li><!-- End tab nav item -->
+
+          </ul>
+
+          <div class="tab-content" data-aos="fade-up" data-aos-delay="200">
+
+            <div class="tab-pane fade active show" id="features-tabs-tab-1">
+              <div class="row align-items-center">
+
+                <div class="col-lg-5">
+                  <div class="content-wrapper">
+                    <div class="icon-badge">
+                      <i class="bi bi-bank"></i>
+                    </div>
+                    <h3>Government</h3>
+                    <p>We streamline mission-critical workflows with secure data pipelines, role-based access, and auditable approvals—so teams move faster without sacrificing compliance.</p>
+
+                    <div class="feature-grid">
+                      <div class="feature-item">
+                        <i class="bi bi-check-circle-fill"></i>
+                        <span>Role-based access & audit logs</span>
+                      </div>
+                      <div class="feature-item">
+                        <i class="bi bi-check-circle-fill"></i>
+                        <span>Encrypted data in transit & at rest</span>
+                      </div>
+                      <div class="feature-item">
+                        <i class="bi bi-check-circle-fill"></i>
+                        <span>Automated approvals & notifications</span>
+                      </div>
+                      <div class="feature-item">
+                        <i class="bi bi-check-circle-fill"></i>
+                        <span>Integrations with legacy systems/APIs</span>
+                      </div>
+                    </div>
+
+                    <div class="stats-row">
+                      <div class="stat-item">
+                        <div class="stat-number">7–14</div>
+                        <div class="stat-label">Days Delivery</div>
+                      </div>
+                      <div class="stat-item">
+                        <div class="stat-number">99.9%</div>
+                        <div class="stat-label">Uptime Target</div>
+                      </div>
+                      <div class="stat-item">
+                        <div class="stat-number">AES-256</div>
+                        <div class="stat-label">Encryption</div>
+                      </div>
+                    </div>
+
+                    <a href="#demos" class="btn-primary">Watch A Demo <i class="bi bi-arrow-right"></i></a>
+                  </div>
+                </div>
+
+                <div class="col-lg-7">
+                  <div class="visual-content">
+                    <div class="main-image">
+                      <img src="assets/img/am/gov.png" alt="" class="img-fluid">
+                      <div class="floating-card">
+                        <i class="bi bi-shield-lock"></i>
+                        <div class="card-content">
+                          <span>SECURITY</span>
+                          <strong>Encryption</strong>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div><!-- End tab content item -->
+
+            <div class="tab-pane fade" id="features-tabs-tab-2">
+              <div class="row align-items-center">
+
+                <div class="col-lg-5">
+                  <div class="content-wrapper">
+                    <div class="icon-badge">
+                      <i class="bi bi-house-door"></i>
+                    </div>
+                    <h3>Real Estate</h3>
+                    <p>We build MLS dashboards that ingest millions of records, de-dupe listings, and surface live search, filters, and lead routing—clarity for brokers in one place.</p>
+
+                    <div class="feature-grid">
+                      <div class="feature-item">
+                        <i class="bi bi-check-circle-fill"></i>
+                        <span>MLS/RESO/RETS/Web API ingestion</span>
+                      </div>
+                      <div class="feature-item">
+                        <i class="bi bi-check-circle-fill"></i>
+                        <span>Incremental, scheduled sync</span>
+                      </div>
+                      <div class="feature-item">
+                        <i class="bi bi-check-circle-fill"></i>
+                        <span>Geo search, filters, & maps</span>
+                      </div>
+                      <div class="feature-item">
+                        <i class="bi bi-check-circle-fill"></i>
+                        <span>Lead routing to your CRM</span>
+                      </div>
+                    </div>
+
+                    <div class="stats-row">
+                      <div class="stat-item">
+                        <div class="stat-number">10M+</div>
+                        <div class="stat-label">Records Handled</div>
+                      </div>
+                      <div class="stat-item">
+                        <div class="stat-number">MLS</div>
+                        <div class="stat-label">Near-Real-Time Updates</div>
+                      </div>
+                      <div class="stat-item">
+                        <div class="stat-number">1 View</div>
+                        <div class="stat-label">Unified Dashboard</div>
+                      </div>
+                    </div>
+
+                    <a href="#demos" class="btn-primary">Watch A Demo <i class="bi bi-arrow-right"></i></a>
+                  </div>
+                </div>
+
+                <div class="col-lg-7">
+                  <div class="visual-content">
+                    <div class="main-image">
+                      <img src="assets/img/am/mls-2.png" alt="" class="img-fluid">
+                      <div class="floating-card">
+                        <i class="bi bi-bar-chart-line"></i>
+                        <div class="card-content">
+                          <span>DATA</span>
+                          <strong>MLS Live Sync</strong>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div><!-- End tab content item -->
+
+            <div class="tab-pane fade" id="features-tabs-tab-3">
+              <div class="row align-items-center">
+
+                <div class="col-lg-5">
+                  <div class="content-wrapper">
+                    <div class="icon-badge">
+                      <i class="bi bi-building"></i>
+                    </div>
+                    <h3>Enterprise</h3>
+                    <p>Automation and tools for complex operations—connecting ERPs, CRMs, and internal systems with monitored, reliable workflows.</p>
+
+                    <div class="feature-grid">
+                      <div class="feature-item">
+                        <i class="bi bi-check-circle-fill"></i>
+                        <span>ERP/CRM/API integrations</span>
+                      </div>
+                      <div class="feature-item">
+                        <i class="bi bi-check-circle-fill"></i>
+                        <span>Monitored jobs & alerts</span>
+                      </div>
+                      <div class="feature-item">
+                        <i class="bi bi-check-circle-fill"></i>
+                        <span>Single source of truth dashboards</span>
+                      </div>
+                      <div class="feature-item">
+                        <i class="bi bi-check-circle-fill"></i>
+                        <span>SLAs & runbooks</span>
+                      </div>
+                    </div>
+
+                    <div class="stats-row">
+                      <div class="stat-item">
+                        <div class="stat-number">5-10 hrs/wk</div>
+                        <div class="stat-label">Time Saved</div>
+                      </div>
+                      <div class="stat-item">
+                        <div class="stat-number">8+</div>
+                        <div class="stat-label">Apps Integrations</div>
+                      </div>
+                      <div class="stat-item">
+                        <div class="stat-number">3x</div>
+                        <div class="stat-label">Faster Reporting</div>
+                      </div>
+                    </div>
+
+                    <a href="#demos" class="btn-primary">Watch A Demo <i class="bi bi-arrow-right"></i></a>
+                  </div>
+                </div>
+
+                <div class="col-lg-7">
+                  <div class="visual-content">
+                    <div class="main-image">
+                      <img src="assets/img/am/car-2.png" alt="" class="img-fluid">
+                      <div class="floating-card">
+                        <i class="bi bi-gear-wide-connected"></i>
+                        <div class="card-content">
+                          <span>EFFICIENCY</span>
+                          <strong>Hours Saved Weekly</strong>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div><!-- End tab content item -->
+
+            <div class="tab-pane fade" id="features-tabs-tab-4">
+              <div class="row align-items-center">
+
+                <div class="col-lg-5">
+                  <div class="content-wrapper">
+                    <div class="icon-badge">
+                      <i class="bi bi-cart-check"></i>
+                    </div>
+                    <h3>E-Commerce</h3>
+                    <p>From marketplace data pipelines to inventory/order sync, we turn raw product data into clean insights—pricing, stock, and performance at a glance.</p>
+
+                    <div class="feature-grid">
+                      <div class="feature-item">
+                        <i class="bi bi-check-circle-fill"></i>
+                        <span>Marketplace data collection pipelines</span>
+                      </div>
+                      <div class="feature-item">
+                        <i class="bi bi-check-circle-fill"></i>
+                        <span>Price/stock monitoring & alerts</span>
+                      </div>
+                      <div class="feature-item">
+                        <i class="bi bi-check-circle-fill"></i>
+                        <span>Catalog normalization & enrichment</span>
+                      </div>
+                      <div class="feature-item">
+                        <i class="bi bi-check-circle-fill"></i>
+                        <span>Order & inventory sync to apps/DB</span>
+                      </div>
+                    </div>
+
+                    <div class="stats-row">
+                      <div class="stat-item">
+                        <div class="stat-number">100M+</div>
+                        <div class="stat-label">Product Records</div>
+                      </div>
+                      <div class="stat-item">
+                        <div class="stat-number">Hourly/Daily</div>
+                        <div class="stat-label">Refresh Cadence</div>
+                      </div>
+                      <div class="stat-item">
+                        <div class="stat-number"><2 min</div>
+                        <div class="stat-label">Alert Latency</div>
+                      </div>
+                    </div>
+
+                    <a href="#demos" class="btn-primary">Watch A Demo <i class="bi bi-arrow-right"></i></a>
+                  </div>
+                </div>
+
+                <div class="col-lg-7">
+                  <div class="visual-content">
+                    <div class="main-image">
+                      <img src="assets/img/am/asin-2.png" alt="" class="img-fluid">
+                      <div class="floating-card">
+                        <i class="bi bi-graph-up-arrow"></i>
+                        <div class="card-content">
+                          <span>INSIGHTS</span>
+                          <strong>Price & Stock Monitor</strong>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div><!-- End tab content item -->
+
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Features Tabs Section -->
+
+    <!-- Call To Action Section -->
+  </br></br>
+    <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Demos</h2>
+        <p>Every build we deliver speaks louder than words.</p>
+      </div><!-- End Section Title -->
+
+    <section id="demos" class="call-to-action section light-background">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="advertise-1 d-flex flex-column flex-lg-row gap-4 align-items-center position-relative">
+
+          <div class="content-left flex-grow-1" data-aos="fade-right" data-aos-delay="200">
+            <span class="badge text-uppercase mb-2">See it live!</span>
+            <h2>See AM Software In Action</h2>
+            <p class="my-4">From secure government workflows and MLS dashboards to large-scale Amazon scrapers and lean MVP builds — our demos show what game-changing results look like. Watch the highlights in one short video.</p>
+
+            <div class="features d-flex flex-wrap gap-3 mb-4">
+              <div class="feature-item">
+                <i class="bi bi-check-circle-fill"></i>
+                <span>Government Systems</span>
+              </div>
+              <div class="feature-item">
+                <i class="bi bi-check-circle-fill"></i>
+                <span>Enterprise Integrations</span>
+              </div>
+              <div class="feature-item">
+                <i class="bi bi-check-circle-fill"></i>
+                <span>E-Commerce Automation</span>
+              </div>
+            </div>
+
+            <div class="cta-buttons d-flex flex-wrap gap-3">
+              <a href="https://youtu.be/yEQV-roXvg4" class="btn btn-primary glightbox">Watch A Demo</a>
+              <a href="#pricing" class="btn btn-outline">Get Started</a>
+            </div>
+          </div>
+
+          <div class="content-right position-relative" data-aos="fade-left" data-aos-delay="300">
+            <a href="https://youtu.be/yEQV-roXvg4" class="glightbox">
+            <img src="assets/img/am/demos.png" alt="Digital Platform" class="img-fluid rounded-4">
+            </a>
+            <div class="floating-card">
+              <div class="card-icon">
+                <i class="bi bi-graph-up-arrow"></i>
+              </div>
+              <div class="card-content">
+                <span class="stats-number">7-14</span>
+                <span class="stats-text">Days Delivery</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="decoration">
+            <div class="circle-1"></div>
+            <div class="circle-2"></div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Call To Action Section -->
+    </br>
+    <!-- Testimonials Section -->
+    <section id="reviews" class="testimonials section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Reviews</h2>
+        <p>Real feedback from founders, brokers, and executives who saw measurable ROI with AM Software.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="testimonial-slider swiper init-swiper">
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 600,
+              "autoplay": {
+                "delay": 4000
+              },
+              "slidesPerView": 1,
+              "spaceBetween": 30,
+              "navigation": {
+                "nextEl": ".swiper-button-next",
+                "prevEl": ".swiper-button-prev"
+              },
+              "breakpoints": {
+                "768": {
+                  "slidesPerView": 2
+                },
+                "1200": {
+                  "slidesPerView": 3
+                }
+              }
+            }
+          </script>
+
+          <div class="swiper-wrapper">
+
+            <!-- Testimonial Slide 1 -->
+            <div class="swiper-slide">
+              <div class="testimonial-item" data-aos="zoom-in" data-aos-delay="200">
+                <div class="testimonial-header">
+                  <img src="assets/img/am/gov.png" alt="Client" class="img-fluid" loading="lazy">
+                  <div class="rating">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                  </div>
+                </div>
+                <div class="testimonial-body">
+                  <p>They delivered a secure workflow system faster than any vendor we’ve worked with. Compliance was smooth, and everything just worked.</p>
+                </div>
+                <div class="testimonial-footer">
+                  <h5>Operations Manager</h5>
+                  <span>Government Agency</span>
+                  <div class="quote-icon">
+                    <i class="bi bi-chat-quote-fill"></i>
+                  </div>
+                </div>
+              </div>
+            </div><!-- End Testimonial Slide -->
+
+            <!-- Testimonial Slide 2 -->
+            <div class="swiper-slide">
+              <div class="testimonial-item" data-aos="zoom-in" data-aos-delay="300">
+                <div class="testimonial-header">
+                  <img src="assets/img/am/mls-1.png" alt="Client" class="img-fluid" loading="lazy">
+                  <div class="rating">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                  </div>
+                </div>
+                <div class="testimonial-body">
+                  <p>Our MLS data used to be chaos. Now we have one dashboard that updates in real time. Saved us countless hours every week.</p>
+                </div>
+                <div class="testimonial-footer">
+                  <h5>Broker</h5>
+                  <span>Real Estate Firm</span>
+                  <div class="quote-icon">
+                    <i class="bi bi-chat-quote-fill"></i>
+                  </div>
+                </div>
+              </div>
+            </div><!-- End Testimonial Slide -->
+
+            <!-- Testimonial Slide 3 -->
+            <div class="swiper-slide">
+              <div class="testimonial-item" data-aos="zoom-in" data-aos-delay="400">
+                <div class="testimonial-header">
+                  <img src="assets/img/am/car-2.png" alt="Client" class="img-fluid" loading="lazy">
+                  <div class="rating">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                  </div>
+                </div>
+                <div class="testimonial-body">
+                  <p>Our car rental app was live in weeks — fully integrated with ERP and CRM, plus real-time fleet tracking.</p>
+                </div>
+                <div class="testimonial-footer">
+                  <h5>CTO</h5>
+                  <span>Enterprise Client</span>
+                  <div class="quote-icon">
+                    <i class="bi bi-chat-quote-fill"></i>
+                  </div>
+                </div>
+              </div>
+            </div><!-- End Testimonial Slide -->
+
+            <!-- Testimonial Slide 4 -->
+            <div class="swiper-slide">
+              <div class="testimonial-item" data-aos="zoom-in" data-aos-delay="500">
+                <div class="testimonial-header">
+                  <img src="assets/img/am/asin-1.png" alt="Client" class="img-fluid" loading="lazy">
+                  <div class="rating">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                  </div>
+                </div>
+                <div class="testimonial-body">
+                  <p>The Amazon scraper and inventory sync gave us insights we never had before. Pricing strategy became data-driven overnight.</p>
+                </div>
+                <div class="testimonial-footer">
+                  <h5>Founder</h5>
+                  <span>E-Commerce Startup</span>
+                  <div class="quote-icon">
+                    <i class="bi bi-chat-quote-fill"></i>
+                  </div>
+                </div>
+              </div>
+            </div><!-- End Testimonial Slide -->
+
+          </div>
+
+          <div class="swiper-navigation">
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Testimonials Section -->
+
+    <!-- Stats Section -->
+<section id="stats"></section>
+    <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Stats</h2>
+        <p>Every number reflects real projects, real savings, and real clients served across industries.</p>
+      </div><!-- End Section Title -->
+
+    <section class="stats section light-background">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row align-items-center">
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="avatars d-flex align-items-center">
+              <img src="assets/img/am/gov.png" alt="Avatar 1" class="rounded-circle" loading="lazy">
+              <img src="assets/img/am/mls-1.png" alt="Avatar 2" class="rounded-circle" loading="lazy">
+              <img src="assets/img/am/car-2.png" alt="Avatar 3" class="rounded-circle" loading="lazy">
+              <img src="assets/img/am/asin-1.png" alt="Avatar 4" class="rounded-circle" loading="lazy">
+            </div>
+          </div>
+
+          <div class="col-lg-8">
+            <div class="row counters">
+              <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+                <h2><span data-purecounter-start="0" data-purecounter-end="75" data-purecounter-duration="1" class="purecounter"></span>+</h2>
+                <p>Projects Delivered</p>
+              </div>
+
+              <div class="col-md-4" data-aos="fade-up" data-aos-delay="400">
+                <h2>$<span data-purecounter-start="0" data-purecounter-end="250" data-purecounter-duration="1" class="purecounter"></span>K+</h2>
+                <p>Saved ROI</p>
+              </div>
+
+              <div class="col-md-4" data-aos="fade-up" data-aos-delay="500">
+                <h2><span data-purecounter-start="0" data-purecounter-end="35" data-purecounter-duration="1" class="purecounter"></span>+</h2>
+                <p>Satisfied Clients</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+    </section><!-- /Stats Section -->
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Pricing</h2>
+        <p>Choose the option that fits your project — clear prices, guaranteed delivery. 
+          </br></br>
+          For fixed solutions, reserve your build with a 50% upfront payment — the rest is due on delivery. 
+          </br></br>
+          For hourly packages, pay upfront and use the hours flexibly.</p>
+      </div><!-- End Section Title -->
+      </br>
+       <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Fixed Packages (Solutions)</h2>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+          <!-- Basic Plan -->
+          <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="200">
+            <div class="pricing-card">
+              <div class="plan-header">
+                <div class="plan-icon">
+                  <i class="bi bi-wrench"></i>
+                </div>
+                <h3>Quick Solution</h3>
+                <p>For small fixes, integrations, or optimizations delivered in days</p>
+              </div>
+              <div class="plan-pricing">
+                <div class="price">
+                  <span class="currency">$</span>
+                  <span class="amount">400</span>
+                  <!--<span class="period">/month</span>-->
+                </div>
+              </div>
+              <div class="plan-features">
+                <ul>
+                  <li><i class="bi bi-check-circle-fill"></i> Fix broken features or bugs</li>
+                  <li><i class="bi bi-check-circle-fill"></i> Set up a single API or automation</li>
+                  <li><i class="bi bi-check-circle-fill"></i> Quick UI/UX improvements</li>
+                  <!--<li class="disabled"><i class="bi bi-x-circle-fill"></i> In enim justo rhoncus ut</li>
+                  <li class="disabled"><i class="bi bi-x-circle-fill"></i> Curabitur ullamcorper ultricies</li>-->
+                </ul>
+              </div>
+              <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+              <input type="hidden" name="cmd" value="_s-xclick" />
+              <input type="hidden" name="hosted_button_id" value="2U37AHBMJ37NC" />
+              <input type="hidden" name="currency_code" value="USD" />
+
+              <div class="plan-cta">
+              <a href="#" class="btn-plan" id="buy-sol-q">Choose Package</a>
+              </div>
+              </form>
+            </div>
+          </div><!-- End Basic Plan -->
+
+          <!-- Professional Plan -->
+          <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="300">
+            <div class="pricing-card popular">
+              <div class="popular-tag">Most Popular</div>
+              <div class="plan-header">
+                <div class="plan-icon">
+                  <i class="bi bi-plug"></i>
+                </div>
+                <h3>Core Solution</h3>
+                <p>One-week build for robust fixes, integrations, or custom workflows</p>
+              </div>
+              <div class="plan-pricing">
+                <div class="price">
+                  <span class="currency">$</span>
+                  <span class="amount">900</span>
+                  <!--<span class="period">/month</span>-->
+                </div>
+              </div>
+              <div class="plan-features">
+                <ul>
+                  <li><i class="bi bi-check-circle-fill"></i> End-to-end API or third-party integration</li>
+                  <li><i class="bi bi-check-circle-fill"></i> Automation of repetitive workflows</li>
+                  <li><i class="bi bi-check-circle-fill"></i> Dashboard or reporting module</li>
+                  <li><i class="bi bi-check-circle-fill"></i> Security or performance optimization</li>
+                  <!--<li class="disabled"><i class="bi bi-x-circle-fill"></i> Cras dapibus vivamus</li>-->
+                </ul>
+              </div>
+              <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                <input type="hidden" name="cmd" value="_s-xclick" />
+                <input type="hidden" name="hosted_button_id" value="LCC5EZNN9T7GJ" />
+                <input type="hidden" name="currency_code" value="USD" />
+                
+                <div class="plan-cta">
+                <a href="#" class="btn-plan" id="buy-sol-c">Choose Package</a>
+              </div>
+              </form>
+            </div>
+          </div><!-- End Professional Plan -->
+
+          <!-- Enterprise Plan -->
+          <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="400">
+            <div class="pricing-card">
+              <div class="plan-header">
+                <div class="plan-icon">
+                  <i class="bi bi-rocket-takeoff"></i>
+                </div>
+                <h3>MVP Solution</h3>
+                <p>Lean MVP or mini SaaS, delivered in 2 weeks or less</p>
+              </div>
+              <div class="plan-pricing">
+                <div class="price">
+                  <span class="currency">$</span>
+                  <span class="amount">1500</span>
+                  <!--<span class="period">/month</span>-->
+                </div>
+              </div>
+              <div class="plan-features">
+                <ul>
+                  <li><i class="bi bi-check-circle-fill"></i> Functional prototype with core features</li>
+                  <li><i class="bi bi-check-circle-fill"></i> Basic user authentication & roles</li>
+                  <li><i class="bi bi-check-circle-fill"></i> Database + API + dashboard setup</li>
+                  <li><i class="bi bi-check-circle-fill"></i> Payment or third-party service integration</li>
+                  <li><i class="bi bi-check-circle-fill"></i> Ready-to-demo product for investors or first users</li>
+                </ul>
+              </div>
+              <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                <input type="hidden" name="cmd" value="_s-xclick" />
+                <input type="hidden" name="hosted_button_id" value="55JLNMRL3SRHG" />
+                <input type="hidden" name="currency_code" value="USD" />
+                
+                <div class="plan-cta">
+                <a href="#" class="btn-plan" id="buy-sol-m">Choose Package</a>
+              </div>
+              </form>
+            </div>
+          </div><!-- End Enterprise Plan -->
+        </div>
+
+      </div>
+
+    </br></br></br></br>
+     <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Hourly Packages (Hours)</h2>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+          <!-- Basic Plan -->
+          <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="200">
+            <div class="pricing-card">
+              <div class="plan-header">
+                <div class="plan-icon">
+                  <i class="bi bi-hourglass"></i>
+                </div>
+                <h3>Starter Hours - 10 hrs</h3>
+                <p>Best for quick, well-defined needs</p>
+              </div>
+              <div class="plan-pricing">
+                <div class="price">
+                  <span class="currency">$</span>
+                  <span class="amount">250</span>
+                  <!--<span class="period">/month</span>-->
+                </div>
+              </div>
+              <div class="plan-features">
+                <ul>
+                  <li><i class="bi bi-check-circle-fill"></i> Bug fixes & code reviews</li>
+                  <li><i class="bi bi-check-circle-fill"></i> Setup/configuration tasks</li>
+                  <li><i class="bi bi-check-circle-fill"></i> One small feature or integration</li>
+                  <!--<li class="disabled"><i class="bi bi-x-circle-fill"></i> In enim justo rhoncus ut</li>
+                  <li class="disabled"><i class="bi bi-x-circle-fill"></i> Curabitur ullamcorper ultricies</li>-->
+                </ul>
+              </div>
+              <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+              <input type="hidden" name="cmd" value="_s-xclick" />
+              <input type="hidden" name="hosted_button_id" value="J28ARYHNDJ3QJ" />
+              <input type="hidden" name="currency_code" value="USD" />
+              
+              <div class="plan-cta">
+                <a href="#" class="btn-plan" id="buy-hrs-s">Choose Package</a>
+              </div>
+            </form>
+            </div>
+          </div><!-- End Basic Plan -->
+
+          <!-- Professional Plan -->
+          <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="300">
+            <div class="pricing-card popular">
+              <div class="popular-tag">Most Popular</div>
+              <div class="plan-header">
+                <div class="plan-icon">
+                  <i class="bi bi-bar-chart-line"></i>
+                </div>
+                <h3>Growth Hours - 25 hrs</h3>
+                <p>Ideal for ongoing or mid-sized builds</p>
+              </div>
+              <div class="plan-pricing">
+                <div class="price">
+                  <span class="currency">$</span>
+                  <span class="amount">625</span>
+                  <!--<span class="period">/month</span>-->
+                </div>
+              </div>
+              <div class="plan-features">
+                <ul>
+                  <li><i class="bi bi-check-circle-fill"></i> Multi-feature implementationss</li>
+                  <li><i class="bi bi-check-circle-fill"></i> Advanced reporting or dashboards</li>
+                  <li><i class="bi bi-check-circle-fill"></i> Cross-app integrations</li>
+                  <li><i class="bi bi-check-circle-fill"></i> UI/UX refinement</li>
+                  <!--<li class="disabled"><i class="bi bi-x-circle-fill"></i> Cras dapibus vivamus</li>-->
+                </ul>
+              </div>
+              <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                <input type="hidden" name="cmd" value="_s-xclick" />
+                <input type="hidden" name="hosted_button_id" value="GPTJ25WRAX3SL" />
+                <input type="hidden" name="currency_code" value="USD" />
+                
+                <div class="plan-cta">
+                <a href="#" class="btn-plan" id="buy-hrs-g">Choose Package</a>
+              </div>
+              </form>
+            </div>
+          </div><!-- End Professional Plan -->
+
+          <!-- Enterprise Plan -->
+          <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="400">
+            <div class="pricing-card">
+              <div class="plan-header">
+                <div class="plan-icon">
+                  <i class="bi bi-lightning-charge"></i>
+                </div>
+                <h3>Power Hours - 40 hrs</h3>
+                <p>Full week of discounted development</p>
+              </div>
+              <div class="plan-pricing">
+                <div class="price">
+                  <span class="currency">$</span>
+                  <span class="amount">900</span>
+                  <!--<span class="period">/month</span>-->
+                </div>
+              </div>
+              <div class="plan-features">
+                <ul>
+                  <li><i class="bi bi-check-circle-fill"></i> Complex workflows & automation</li>
+                  <li><i class="bi bi-check-circle-fill"></i> Multiple system integrations</li>
+                  <li><i class="bi bi-check-circle-fill"></i> End-to-end module or feature build</li>
+                  <li><i class="bi bi-check-circle-fill"></i> Security & optimization tasks</li>
+                  <li><i class="bi bi-check-circle-fill"></i> Dedicated week availability</li>
+                </ul>
+              </div>
+              <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                <input type="hidden" name="cmd" value="_s-xclick" />
+                <input type="hidden" name="hosted_button_id" value="UANL5L74UKYB2" />
+                <input type="hidden" name="currency_code" value="USD" />
+                
+                <div class="plan-cta">
+                <a href="#" class="btn-plan" id="buy-hrs-p">Choose Package</a>
+              </div>
+              </form>
+            </div>
+          </div><!-- End Enterprise Plan -->
+        </div>
+
+      </div>
+      </br></br></br></br></br></br>
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Custom Quote</h2>
+        </br></br>
+        <h3><b>Need something outside the box? Book a free consultation call today. We’ll scope your project and give you a tailored proposal.</b></h3>
+        </br></br>
+        <a href="https://calendly.com/amsoftware-co/30min" target="_blank" class="btn btn-am">Book A Free Call</a>     
+        
+      </div><!-- End Section Title -->
+
+    </section><!-- /Pricing Section -->
+
+
+    <!-- Faq Section -->
+    <section id="faq" class="faq section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>FAQ</h2>
+        <p>Frequently Asked Questions</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4 justify-content-between">
+          <div class="col-lg-8">
+
+            <div class="faq-list">
+              <div class="faq-item faq-active" data-aos="fade-up" data-aos-delay="100">
+                <h3>How fast can you deliver?</h3>
+                <div class="faq-content">
+                  <p>
+                    Most fixed packages ship in 7–14 days.
+                    </br></br>
+                    Quick Solution (small fixes) = 2–4 days. Core Solution = ~1 week. MVP Solution = ≤ 2 weeks.
+                  </p>
+                </div>
+                <i class="bi bi-plus faq-toggle"></i>
+              </div><!-- End FAQ Item-->
+
+              <div class="faq-item" data-aos="fade-up" data-aos-delay="200">
+                <h3>What exactly do I get with each fixed package?</h3>
+                <div class="faq-content">
+                  <p>
+                    Quick Solution ($400): one focused fix or single integration, plus a short loom walkthrough.
+                    </br></br>
+                    Core Solution ($900): full integration/automation or a dashboard module, plus deployment + documentation.
+                    </br></br>
+                    MVP Solution ($1,300–$1,500): lean prototype (auth, DB, core flow, basic UI), ready to demo or test with users.
+                    </br></br>
+                    For fixed solutions, reserve your build with a 50% upfront payment — the rest is due on delivery. 
+                  </p>
+                </div>
+                <i class="bi bi-plus faq-toggle"></i>
+              </div><!-- End FAQ Item-->
+
+              <div class="faq-item" data-aos="fade-up" data-aos-delay="300">
+                <h3>How do Hour Packs work?</h3>
+                <div class="faq-content">
+                  <p>
+                    Prepay time blocks (10h, 25h, 40h) and use them for any tasks. We send a time log after each work session so you always know hours used / hours left.
+                    </br></br>
+                    For hourly packages, pay upfront and use the hours flexibly.
+                  </p>
+                </div>
+                <i class="bi bi-plus faq-toggle"></i>
+              </div><!-- End FAQ Item-->
+
+              <div class="faq-item" data-aos="fade-up" data-aos-delay="400">
+                <h3>What’s your process?</h3>
+                <div class="faq-content">
+                  <p>
+                    Brief → Scope → Price → Build → Review → Launch.
+                    </br></br>
+                    You approve scope and price before we start. Clear milestones, no surprises.
+                  </p>
+                </div>
+                <i class="bi bi-plus faq-toggle"></i>
+              </div><!-- End FAQ Item-->
+
+              <div class="faq-item" data-aos="fade-up" data-aos-delay="500">
+                <h3>Do you support my industry?</h3>
+                <div class="faq-content">
+                  <p>
+                    Yes. We’re proven across Government, Real Estate (MLS), Enterprise, and E-Commerce—plus general SMB/Startups. If there’s data + workflows, we can ship it.
+                  </p>
+                </div>
+                <i class="bi bi-plus faq-toggle"></i>
+              </div><!-- End FAQ Item-->
+
+              <div class="faq-item" data-aos="fade-up" data-aos-delay="500">
+                <h3>Do you guarantee timelines?</h3>
+                <div class="faq-content">
+                  <p>
+                    We commit to realistic windows (7–14 days for most builds). If scope changes, we agree on an updated plan before proceeding.
+                  </p>
+                </div>
+                <i class="bi bi-plus faq-toggle"></i>
+              </div><!-- End FAQ Item-->
+
+              <div class="faq-item" data-aos="fade-up" data-aos-delay="500">
+                <h3>What tech do you use?</h3>
+                <div class="faq-content">
+                  <p>
+                    Modern, proven stacks for APIs, automations, data pipelines, dashboards, and cloud deployment. We pick the right tools for speed, reliability, and maintainability (no lock-in). If you need a specific tech, we can work with it.
+                  </p>
+                </div>
+                <i class="bi bi-plus faq-toggle"></i>
+              </div><!-- End FAQ Item-->
+
+              <div class="faq-item" data-aos="fade-up" data-aos-delay="500">
+                <h3>How do you handle security/compliance?</h3>
+                <div class="faq-content">
+                  <p>
+                    Encrypted data, role-based access, audit logs where needed. We follow best practices for handling credentials, environment variables, and production secrets.
+                  </p>
+                </div>
+                <i class="bi bi-plus faq-toggle"></i>
+              </div><!-- End FAQ Item-->
+
+              <div class="faq-item" data-aos="fade-up" data-aos-delay="500">
+                <h3>How do you handle revisions & change requests?</h3>
+                <div class="faq-content">
+                  <p>
+                    Each fixed package includes a review + revision pass within scope. New ideas or scope changes are easy—use an Hour Pack or upgrade the package.
+                  </p>
+                </div>
+                <i class="bi bi-plus faq-toggle"></i>
+              </div><!-- End FAQ Item-->
+
+              <div class="faq-item" data-aos="fade-up" data-aos-delay="500">
+                <h3>How do you handle payments & invoicing?</h3>
+                <div class="faq-content">
+                  <p>
+                    We keep it simple and flexible. The same “Choose Plan” buttons you see in the Packages section will take you directly to PayPal checkout, where you can pay with either a card or your PayPal balance.
+                    </br></br>
+                    For custom quotes, we’ll send a PayPal invoice.
+                    </br></br>
+                    Prefer decentralization? We also accept crypto payments on request.
+                  </p>
+                </div>
+                <i class="bi bi-plus faq-toggle"></i>
+              </div><!-- End FAQ Item-->
+
+              <div class="faq-item" data-aos="fade-up" data-aos-delay="500">
+                <h3>How do you handle timezone & communication?</h3>
+                <div class="faq-content">
+                  <p>
+                    We work async with same-day updates and scheduled calls. Status is shared via your preferred channel (email or chat) + brief videos.
+                  </p>
+                </div>
+                <i class="bi bi-plus faq-toggle"></i>
+              </div><!-- End FAQ Item-->
+
+               <div class="faq-item" data-aos="fade-up" data-aos-delay="500">
+                <h3>What if I’m not satisfied?</h3>
+                <div class="faq-content">
+                  <p>
+                    If we miss the agreed scope, we fix it. We design scopes to be tight and testable so outcomes are clear.
+                  </p>
+                </div>
+                <i class="bi bi-plus faq-toggle"></i>
+              </div><!-- End FAQ Item-->
+
+            </div>
+
+          </div>
+
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="faq-card">
+              <i class="bi bi-chat-dots-fill"></i>
+              <h3>Still have a question?</h3>
+              <p class="centered">We know every project is unique. If you’re not sure which package is right for you, or if you have specific requirements, we’ll walk you through the best option.
+              You can ask about:
+              </br></br>
+              Project scope & timelines
+              </br>
+              Package details & deliverables
+              </br>
+              Payment & invoicing options
+              </br>
+              Custom tech or integrations
+              </br></br>
+              Our goal is simple: turn uncertainty into clarity so you can move forward with confidence.</p>
+              <a href="#contact" class="btn btn-primary">Contact Us</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Faq Section -->
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Contact</h2>
+        <!--<p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>-->
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row">
+          <div class="col-lg-6 mb-5" data-aos="fade-right" data-aos-delay="200">
+            <div class="contact-info-section">
+              <div class="info-header">
+                <h3>Connect With Us</h3>
+                <!--<p>Contact Us.</p>-->
+              </div>
+
+              <div class="contact-info-grid">
+                <div class="info-item" data-aos="zoom-in" data-aos-delay="300">
+                  <div class="info-icon">
+                    <i class="bi bi-envelope-fill"></i>
+                  </div>
+                  <div class="info-content">
+                    <h5>Contact</h5>
+                    <p>contact@amsoftware.co</p>
+                  </div>
+                </div>
+
+                <div class="info-item" data-aos="zoom-in" data-aos-delay="300">
+                  <div class="info-icon">
+                    <i class="bi bi-envelope-fill"></i>
+                  </div>
+                  <div class="info-content">
+                    <h5>Sales</h5>
+                    <p>sales@amsoftware.co</p>
+                  </div>
+                </div>
+
+                <div class="info-item" data-aos="zoom-in" data-aos-delay="300">
+                  <div class="info-icon">
+                    <i class="bi bi-envelope-fill"></i>
+                  </div>
+                  <div class="info-content">
+                    <h5>Support</h5>
+                    <p>support@amsoftware.co</p>
+                  </div>
+                </div>
+
+                <div class="info-item" data-aos="zoom-in" data-aos-delay="400">
+                  <div class="info-icon">
+                    <i class="bi bi-clock-fill"></i>
+                  </div>
+                  <div class="info-content">
+                    <h5>Business Hours</h5>
+                    <p>Mon-Sat: 8AM - 7PM</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="social-contact" data-aos="fade-up" data-aos-delay="450">
+                <h5>Follow Our Journey</h5>
+                <div class="social-icons">
+                  <a href="https://www.linkedin.com/company/buildingthefuture/" target="_blank" class="social-icon"><i class="bi bi-linkedin"></i></a>
+                  <a href="https://www.facebook.com/AMSoftware.en" target="_blank" class="social-icon"><i class="bi bi-facebook"></i></a>
+                  <a href="https://discord.gg/23sAzspR" target="_blank"class="social-icon"><i class="bi bi-discord"></i></a>
+                  <a href="https://www.youtube.com/@amsoftware-co" target="_blank" class="social-icon"><i class="bi bi-youtube"></i></a>
+                  <a href="https://www.tiktok.com/@amsoftware.co" target="_blank" class="social-icon"><i class="bi bi-tiktok"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-left" data-aos-delay="200">
+            <div class="contact-form-wrapper">
+              <div class="form-header">
+                <h3>Message Us</h3>
+                <!--<p>Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>-->
+              </div>
+
+              <form action="https://formspree.io/f/xkgvykey" method="POST" class="php-email-form">
+                <div class="mb-3">
+                  <label for="contactName" class="form-label">Full Name</label>
+                  <input type="text" name="name" class="form-control" id="contactName" placeholder="Enter your full name" required="">
+                </div>
+
+                <div class="mb-3">
+                  <label for="contactEmail" class="form-label">Email Address</label>
+                  <input type="email" class="form-control" name="email" id="contactEmail" placeholder="Enter your email address" required="">
+                </div>
+
+                <div class="mb-3">
+                  <label for="contactPhone" class="form-label">Phone Number</label>
+                  <input type="tel" class="form-control" name="phone" id="contactPhone" placeholder="Enter your phone number">
+                </div>
+
+                <div class="mb-3">
+                  <label for="contactSubject" class="form-label">Subject</label>
+                  <input type="text" class="form-control" name="subject" id="contactSubject" placeholder="Enter message subject" required="">
+                </div>
+
+                <div class="mb-4">
+                  <label for="contactMessage" class="form-label">Your Message</label>
+                  <textarea class="form-control message-textarea" name="message" id="contactMessage" rows="5" placeholder="Enter your message" required=""></textarea>
+                </div>
+
+                <div class="my-3">
+                  <div class="loading">Loading</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">Your message has been sent. Thank you! We’ll reply within 24 hours.</div>
+                </div>
+                
+                <button type="submit" class="submit-btn">
+                  <span>Send Message</span>
+                  <i class="bi bi-arrow-right"></i>
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- /Contact Section -->
+
+  </main>
+
+  <footer id="footer" class="footer light-background">
+
+    <div class="footer-top">
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-4 col-md-6 footer-about">
+            <a href="index.html" class="logo d-flex align-items-center">
+              <span class="sitename">AM Software</span>
+            </a>
+            <div class="footer-contact pt-3">
+              <!--<p>A108 Adam Street</p>
+              <p>New York, NY 535022</p>
+              <p class="mt-3"><strong>Phone:</strong> <span>+1 5589 55488 55</span></p>-->
+              <p><strong>Contact:</strong> <span>contact@amsoftware.co</span></p>
+              <p><strong>Sales:</strong> <span>sales@amsoftware.co</span></p>
+              <p><strong>Support:</strong> <span>support@amsoftware.co</span></p>
+            </div>
+          </div>
+          
+          <div class="col-lg-2 col-md-3 footer-links">
+            <h4>Links</h4>
+            <ul>
+              <li><a href="#about">About</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#results">Results</a></li>
+              <li><a href="#industries">Industries</a></li>
+              <li><a href="#demos">Demos</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-2 col-md-3 footer-links">
+            <h4>More</h4>
+            <ul>
+              <li><a href="#reviews">Reviews</a></li>
+              <li><a href="#stats">Stats</a></li>
+              <li><a href="#pricing">Pricing</a></li>
+              <li><a href="#faq">FAQ</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-2 col-md-3 footer-links">
+            <h4>Social</h4>
+            <ul>
+              <li><a href="https://www.linkedin.com/company/buildingthefuture/" target="_blank">LinkedIn</a></li>
+              <li><a href="https://www.facebook.com/AMSoftware.en" target="_blank">Facebook</a></li>
+              <li><a href="https://discord.gg/23sAzspR" target="_blank">Discord</a></li>
+              <li><a href="https://www.youtube.com/@amsoftware-co" target="_blank">YouTube</a></li>
+              <li><a href="https://www.tiktok.com/@amsoftware.co" target="_blank">TikTok</a></li>
+            </ul>
+          </div>
+          <!--
+
+          <div class="col-lg-2 col-md-3 footer-links">
+            <h4>Nobis illum</h4>
+            <ul>
+              <li><a href="#">Ipsam</a></li>
+              <li><a href="#">Laudantium dolorum</a></li>
+              <li><a href="#">Dinera</a></li>
+              <li><a href="#">Trodelas</a></li>
+              <li><a href="#">Flexo</a></li>
+            </ul>
+          </div>
+          -->
+        </div>
+      </div>
+    </div>
+
+    <div class="copyright text-center">
+      <div class="container d-flex flex-column flex-lg-row justify-content-center justify-content-lg-between align-items-center">
+
+        <div class="d-flex flex-column align-items-center align-items-lg-start">
+          <div>
+            © Copyright <strong><span>AM Software</span></strong>. All Rights Reserved
+          </div>
+          <div class="credits">
+          </div>
+        </div>
+
+        <div class="social-links order-first order-lg-last mb-3 mb-lg-0">
+          <a href="https://www.linkedin.com/company/buildingthefuture/" target="_blank"><i class="bi bi-linkedin"></i></a>
+          <a href="https://www.facebook.com/AMSoftware.en" target="_blank"><i class="bi bi-facebook"></i></a>
+          <a href="https://discord.gg/23sAzspR" target="_blank"><i class="bi bi-discord"></i></a>
+          <a href="https://www.youtube.com/@amsoftware-co" target="_blank"><i class="bi bi-youtube"></i></a>
+          <a href="https://www.tiktok.com/@amsoftware.co" target="_blank"><i class="bi bi-tiktok"></i></a>
+        </div>
+
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js?v=3"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+  <!-- PayPal -->
+  <script>
+    document.getElementById("buy-sol-q").addEventListener("click", function(e) {
+      e.preventDefault();
+      this.closest("form").submit();
+    });
+
+    document.getElementById("buy-sol-c").addEventListener("click", function(e) {
+      e.preventDefault();
+      this.closest("form").submit();
+    });
+
+    document.getElementById("buy-sol-m").addEventListener("click", function(e) {
+      e.preventDefault();
+      this.closest("form").submit();
+    });
+
+    document.getElementById("buy-hrs-s").addEventListener("click", function(e) {
+      e.preventDefault();
+      this.closest("form").submit();
+    });
+
+    document.getElementById("buy-hrs-g").addEventListener("click", function(e) {
+      e.preventDefault();
+      this.closest("form").submit();
+    });
+
+    document.getElementById("buy-hrs-p").addEventListener("click", function(e) {
+      e.preventDefault();
+      this.closest("form").submit();
+    });
+  </script>
+
+  <!-- Formspree -->
+  <script>
+  const form = document.getElementById('contact-form');
+  form.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    const res = await fetch(form.action, {
+      method: 'POST',
+      body: new FormData(form),
+      headers: { 'Accept': 'application/json' }
+    });
+    if (res.ok) {
+      form.reset();
+      alert('Thanks! Your message has been sent.');
+    } else {
+      alert('Oops! Something went wrong. Please try again or email us directly.');
+    }
+  });
+</script>
+
 </body>
+
 </html>
